@@ -72,4 +72,7 @@ section.header .header-content .container{
     background: #E75201;
     font-family: "Itim";
 }
- 
+
+body {
+    font-family: "Itim", sans-serif;
+}
