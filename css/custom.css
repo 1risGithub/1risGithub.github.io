@@ -1,3 +1,7 @@
+body {
+    font-family: "Itim", sans-serif;
+}
+
 .bg-dark {
     background-color: #010101 !important;
 }
@@ -68,11 +72,7 @@ section.header .header-content .container{
 
 .btn-download {
     border-radius: 30px;
+    width: auto;
     border: 3px solid #F5F5F5;
     background: #E75201;
-    font-family: "Itim";
-}
-
-body {
-    font-family: "Itim", sans-serif;
 }
