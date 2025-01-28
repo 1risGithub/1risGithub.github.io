@@ -72,8 +72,15 @@ section.header .header-content .container{
 
 .btn-download {
     border-radius: 30px;
-    width: auto;
     border: 3px solid #F5F5F5;
     background: #E75201;
     white-space: nowrap;
+}
+
+/* Adjust the button size to fit the text */
+.nav-link.btn-download {
+    width: auto; /* Let the button width adjust to the content */
+    padding: 10px 20px; /* Add padding to make the button more visually appealing */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    display: inline-block; /* Ensure the button only takes up as much space as necessary */
 }
